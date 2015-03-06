@@ -7,7 +7,7 @@ body {
 
 .Hero {
   align-items: center;
-  background: #9ED7EC;
+  background: linear-gradient(135deg, #FFF, #39CCD3) #9ED7EC;
   color: white;
   display: flex;
   flex-direction: column;
