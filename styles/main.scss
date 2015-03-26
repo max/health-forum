@@ -1,3 +1,5 @@
+@import 'bourbon/bourbon';
+
 body {
   color: #555;
   font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -6,12 +8,12 @@ body {
 }
 
 .Hero {
-  align-items: center;
-  background: linear-gradient(135deg, #FFF, #39CCD3) #9ED7EC;
+  @include align-items(center);
+  @include linear-gradient(135deg, #FFF, #39CCD3, #9ED7EC);
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
   min-height: 80vh;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 .Speaker {
-  display: flex;
+  @include display(flex);
 }
 
 .Speaker-avatar {
@@ -88,8 +90,8 @@ body {
 }
 
 .SponsorList {
-  display: flex;
-  justify-content: space-between;
+  @include display(flex);
+  @include justify-content(space-between);
 }
 
 .SponsorList-item {
