@@ -113,6 +113,23 @@ body {
   max-width: 640px;
 }
 
+.Schedule {
+  width: 100%;
+}
+
+.Schedule td {
+  padding: 10px;
+  width: 50%;
+}
+
+.Schedule td:first-child {
+  text-align: right;
+}
+
 h3 {
   margin-top: 0;
+}
+
+.u-textCenter {
+  text-align: center;
 }
